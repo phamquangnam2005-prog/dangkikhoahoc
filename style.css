@@ -1,0 +1,99 @@
+:root{
+    --blue: rgb(0, 201, 251);
+}
+*{
+    box-sizing: border-box;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+body{
+    margin:0;
+    font-family: "Roboto", sans-serif;
+    background:linear-gradient(180deg,#f7fbff 0,#f7f7fb 100%) fixed;
+    min-height: 100vh;
+    padding: 48px 16px;
+}
+
+.pagetitle{
+    text-align: center;
+    font-size: 34px;
+    font-family:'Times New Roman';
+    font-weight: 750;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+}
+
+.card{
+    width: min(500px,100%);
+    background: #fff;
+    border: 2px solid var(--blue);
+    border-radius: 16px;
+    box-shadow:0 6px 20px rgba(0, 0, 0, .06);
+    padding: 28px;
+}
+
+.card h2{
+    margin: 10px 0 30px;
+    text-align: center;
+    color:var(--blue);
+    font-size: 22px;
+    letter-spacing: 0.5px;
+}
+
+.form-input{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.form-input > label{
+    width: 40%;
+}
+.form-input > input, .form-input select{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #6b7280;
+}
+.tick{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.tworow{
+    display: flex;
+    gap: 30px;
+}
+.tworow div{
+    width: 100%;
+}
+.tworow input{
+    padding: 7px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #6b7280;
+}
+.action{
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+.action button{
+    padding: 8px 38px;
+    cursor:pointer;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+.action .bt-green{
+    background-color: rgb(24, 235, 24);
+}
+.action .bt-orange{
+    background-color: rgb(243, 191, 33);
+}.action .bt-red{
+    background-color: rgb(246, 43, 43);
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Đăng kí khoá học</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+        <div class="pagetitle">BÀI KIỂM TRA</div>
+    <body>
+        <section id="main">
+            <div class="card">
+                <h2>ĐĂNG KÍ THAM GIA KHOÁ HỌC</h2>
+    
+                <form>
+                    <div class="form-input">
+                        <label for="fname">Họ và Tên:</label>
+                        <input type="text" id="fname" placeholder="Nguyễn Văn A"> 
+                    </div>
+                    <div class="form-input">
+                        <label for="dist">Địa chỉ:</label>
+                        <input type="text" id="dist" placeholder="123 Đường XYZ"> 
+                    </div>
+                    <div class="form-input">
+                        <label for="nump">Số điện thoại:</label>
+                        <input type="text" id="nump" placeholder="0987654321"> 
+                    </div>
+                    <div class="form-input">
+                        <label for="numid">Số CCCD</label>
+                        <input type="text" id="numid" placeholder="1234567890"> 
+                    </div>
+                    <div class="form-input">
+                        <label for="study">Khoá học:</label>
+                            <select name="" id="study">
+                            <option >Lập Trình Web</option>
+                            <option >An ninh mạng</option>
+                            <option >Lập trình Game</option>
+                            <option >Lập trình Mobile</option>  
+                        </select> 
+                    </div>
+
+                    <div class="form-input" style="font-weight: bold;">
+                        <label for="inline">Giới tính:</label>
+                        <div class="tick">
+                            <label ><input type="radio" name="gender"> Nam</label>
+                            <label ><input type="radio" name="gender"> Nữ</label>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label >Đối tượng ưu tiên:</label>
+                        <label class="checkbox" style="text-align: center;"><input type="checkbox"></label>
+                    </div>
+    
+                    <div class="tworow">
+                        <div>
+                            <label for="age">Tuổi</label> <br/>
+                            <input type="number" id="age" min="15" max="80" step="1" placeholder="25">
+                        </div>
+    
+                        <div>
+                            <label for="cost">Học phí</label> <br/>
+                            <input type="text" id="cost" placeholder="0đ">
+                        </div>
+                    </div>
+    
+                    <div class="action">
+                        <button type="button" class="bt-green">Tính học phí</button>
+                        <button type="reset" class="bt-orange">Làm mới</button>
+                        <button type="button" class="bt-red">Học phí</button>
+                    </div>
+                </form>
+
+            </div>
+
+            
+        </section>
+    </body>
+</html>
